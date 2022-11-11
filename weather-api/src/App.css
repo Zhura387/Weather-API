@@ -1,0 +1,10 @@
+body{
+  background: url(/public/backgr.png) no-repeat;
+  background-size: 100%;
+  
+}
+
+.App {
+  text-align: center;
+}
+

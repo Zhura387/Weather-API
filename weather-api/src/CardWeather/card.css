@@ -1,0 +1,10 @@
+.card{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.wrapper{
+    background:linear-gradient(204.27deg, rgba(8, 45, 67, 0.6) 35.14%, rgba(8, 45, 67, 0) 121.49%);
+    width: 380px;
+    height: 500px
+}
