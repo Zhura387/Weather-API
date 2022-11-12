@@ -30,8 +30,8 @@ const CardWeather = () => {
                                 <p>ошущается как: {weather.main.feels_like}</p>
                             </div>
                         </div>
-                        <div>
-                            <p><img src={weather.weather.map((item) => item.icon + '.png')} /></p>
+                        <div >
+                            <p className='cardImgWrapper'><img className='cardImg' src={weather.weather.map((item) => item.icon + '.png')} /></p>
                         </div>
                     </div>
                 </div>

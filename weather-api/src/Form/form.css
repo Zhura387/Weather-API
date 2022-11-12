@@ -16,3 +16,21 @@ button{ width: 70px;
 height: 30px;
 margin-left: 10px;
 }
+
+@media (max-width:768px){
+    .formWrapper{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    input{
+        height: 30px;
+        width: 120px;
+        font-size: 15px;
+    }
+    button{ width: 50px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 12px;
+    }
+}
