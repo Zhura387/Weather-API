@@ -1,10 +1,40 @@
 .card{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 .wrapper{
     background:linear-gradient(204.27deg, rgba(8, 45, 67, 0.6) 35.14%, rgba(8, 45, 67, 0) 121.49%);
-    width: 380px;
-    height: 500px
+    width: 50%;
+    height: 40vh;
+}
+.cardTitle{
+    color: #fff;
+    font-size: 28px;
+    margin: 15px 0px 30px 0px;
+}
+.cardData{
+    margin:0;
+    font-size: 18px;
+}
+.cardContent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.cardInfo p{ 
+    margin: 10px 0;
+    color: #fff;
+    border-bottom: #fff solid 1px;
+    font-size: 18px;
+}
+.cardInput{
+    color: #fff;
+    font-size: 50px;
 }

@@ -7,6 +7,7 @@ function App() {
 
   return (
     <div className="App">
+      <h2 className='weatherTitle'>Weather</h2>
       <Form />
       <CardWeather />
     </div>

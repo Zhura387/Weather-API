@@ -5,7 +5,7 @@ import { addWeather } from '../slice/weatherSlice'
 import axios from 'axios';
 
 const Form = () => {
-    const [text, setText] = React.useState('minsk');
+    const [text, setText] = React.useState('');
     const dispatch = useDispatch()
 
     const handleSubmit =  (e) => {
