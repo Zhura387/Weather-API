@@ -63,4 +63,17 @@
     .cardImgWrapper{
         margin: 0px 0px 20px 0px;
     }
+    .cardInput{
+        color: #fff;
+        font-size: 36px;
+        margin: 0 20px;
+    }
+}
+
+@media (min-width:1440px){
+    .wrapper{
+        background:linear-gradient(204.27deg, rgba(8, 45, 67, 0.6) 35.14%, rgba(8, 45, 67, 0) 121.49%);
+        width: 30%;
+        height: 40vh;
+    }
 }
